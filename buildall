@@ -1,0 +1,32 @@
+#!/bin/bash -x
+
+MAKE=(make -j7)
+DEFAULTFLAGS="-DSWEEP_POINTS_MAX=201 -DSAVEAREA_MAX=7"
+
+"${MAKE[@]}" clean || exit 1
+rm *.bin
+
+
+
+"${MAKE[@]}" BOARDNAME=board_v2_2 EXTRA_CFLAGS="$DEFAULTFLAGS" || exit 1
+mv binary.bin v2_2-ili9341.bin
+"${MAKE[@]}" clean
+
+"${MAKE[@]}" BOARDNAME=board_v2_2 EXTRA_CFLAGS="$DEFAULTFLAGS -DDISPLAY_ST7796" || exit 1
+mv binary.bin v2_2-st7796.bin
+"${MAKE[@]}" clean
+
+"${MAKE[@]}" BOARDNAME=board_v2_plus EXTRA_CFLAGS="$DEFAULTFLAGS" || exit 1
+mv binary.bin v2plus-ili9341.bin
+"${MAKE[@]}" clean
+
+"${MAKE[@]}" BOARDNAME=board_v2_plus EXTRA_CFLAGS="$DEFAULTFLAGS -DDISPLAY_ST7796" || exit 1
+mv binary.bin v2plus-st7796.bin
+"${MAKE[@]}" clean
+
+
+DEFAULTFLAGS="-DSWEEP_POINTS_MAX=201 -DSAVEAREA_MAX=7"
+"${MAKE[@]}" BOARDNAME=board_v2_plus4 EXTRA_CFLAGS="$DEFAULTFLAGS -DDISPLAY_ST7796" \
+	LDSCRIPT=./gd32f303cc_with_bootloader_plus4.ld || exit 1
+mv binary.bin v2plus4.bin
+"${MAKE[@]}" clean
