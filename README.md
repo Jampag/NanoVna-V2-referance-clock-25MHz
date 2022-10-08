@@ -1,5 +1,5 @@
 
-Credit
+Credit origianal firmware and developer:
 https://github.com/nanovna-v2/NanoVNA2-firmware/tree/20201013
 
 TBd
