@@ -63,7 +63,7 @@ cd NanoVNA-V2-firmware
 Conviene aggiornare il bootloader
 git checkout -- gd32f303cc_with_bootloader.ld
 
-### Download 
+## Download library
 gh repo clone nanovna/libopencm3-gd32f3
 
 -Change the file  with texteditor 'NanoVNA-V2-firmware/libopencm3/Makefile' replace row 27 with:
