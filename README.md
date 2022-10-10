@@ -14,6 +14,7 @@ For example the jitter measured with oscilloscope after 1uS of trigger is 5nS.
 
 ![Immagine 2022-10-10 215154](https://user-images.githubusercontent.com/114861733/194942114-1c865ed1-fcf2-4755-8a28-d91938cb1442.png)
 
+To improve performance i added an LDO to power the OCXO
 ![Immagine 2022-10-10 220100](https://user-images.githubusercontent.com/114861733/194943339-5e7310eb-30c0-4ef6-8380-b4a4a2ed27a0.png)
 
 
