@@ -13,6 +13,9 @@ The XO mounted on board is a very poor performance, low stability frequncy, low 
 For example the jitter measured with oscilloscope after 1uS of trigger is 5nS.
 
 
+![image0 (1)2](https://user-images.githubusercontent.com/114861733/194941193-3dc8a75b-9de8-4654-9fac-8339d61e2c79.jpg)
+
+
 ![image1](https://user-images.githubusercontent.com/114861733/194939849-d7cf4c74-8cbd-44f5-a1e3-ac66caa8727b.jpeg)
 
 
