@@ -3,13 +3,20 @@ This repository contains the source code to build the firmware for the NanoVNA V
 
 See https://nanorfe.com/nanovna-v2.html for more info.
 
-Developers chat room: https://discord.gg/DUH5Xk5
+The original project is https://github.com/nanovna-v2/NanoVNA2-firmware this branch modify only clock referance
+for synthetizer
 
-Below is information for building the firmware on Linux.
+##INFO 
+
+The XO mounted on board is a very poor performance, low stability frequncy, low frequency accuracy,high jitter.
+
+For example the jitter measured with oscilloscope after 1uS of trigger is 5nS.
+
+
+
 
 ## Installing the compiler
 
-### Debian based systems
 
 On any recent Debian based installation:
 ``` 
