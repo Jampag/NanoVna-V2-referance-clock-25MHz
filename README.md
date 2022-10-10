@@ -20,7 +20,13 @@ For example the jitter measured with oscilloscope after 1uS of trigger is 5nS.
 ![image0 (1)2](https://user-images.githubusercontent.com/114861733/194941193-3dc8a75b-9de8-4654-9fac-8339d61e2c79.jpg)
 
 
+Compare Phase noise with R&S Spectrum Analyzer:
 
+![image](https://user-images.githubusercontent.com/114861733/194943891-f6c683ef-2061-4e12-814f-cf0e49e1ddf5.png)
+Dark green is NanoVNA at 200MHz
+
+![image](https://user-images.githubusercontent.com/114861733/194943809-3a997ef1-b522-48ac-9d43-3571ffe3ea46.png)
+Blu is NanoVNA at 1GHz
 
 
 ## Installing the compiler
