@@ -6,7 +6,7 @@ See https://nanorfe.com/nanovna-v2.html for more info.
 The original project is https://github.com/nanovna-v2/NanoVNA2-firmware this branch modify only clock referance
 for synthetizer
 
-##INFO 
+## INFO 
 
 The XO mounted on board is a very poor performance, low stability frequncy, low frequency accuracy,high jitter.
 
