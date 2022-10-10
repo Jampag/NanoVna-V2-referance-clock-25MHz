@@ -120,6 +120,8 @@ There are two options to update the firmware when using the regular USB interfac
  - Command line
 For this to work the device must stay in the bootloader and enter _DFU mode_
 
+Use the file present in this repo 'binary.bin'
+
 Another option is using a debugger using the debug pins.
 
 ### Entering DFU mode
